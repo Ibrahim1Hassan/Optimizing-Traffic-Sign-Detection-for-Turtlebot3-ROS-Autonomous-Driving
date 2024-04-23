@@ -1,0 +1,5 @@
+ultralytics == 8.0.121
+
+# You will need atleast 64GB Storage in your Virtual Machine and atleast 8GB RAM for using Ultralytics
+# In this case we needed 4 processors as intrinsic, extrinsic and yolo detection all three are done at same time
+# Increase your Video Memory of VM to 64GB

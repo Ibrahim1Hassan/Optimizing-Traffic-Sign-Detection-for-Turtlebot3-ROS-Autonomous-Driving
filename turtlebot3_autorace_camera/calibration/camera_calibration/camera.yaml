@@ -1,0 +1,4 @@
+cv_cap_prop_brightness: 45
+cv_cap_prop_contrast: 20
+cv_cap_prop_saturation: 80
+cv_cap_prop_hue: 100

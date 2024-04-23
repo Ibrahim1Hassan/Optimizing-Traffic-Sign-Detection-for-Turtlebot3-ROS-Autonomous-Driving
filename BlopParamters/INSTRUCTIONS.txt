@@ -1,0 +1,21 @@
+How to use:
+-Put each file in the corresponding directory (make sure to save original files).
+-After callibration save ur parameters somewhere.
+-Return the original files back to their directories.
+-Change the parameters previously saved into the original package.
+-The reason for this is that the changes to those files made the package generally unstable in doing other operations other than callibration.
+
+1. Directory of File 1: 
+/home/user/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_autorace_detect/cfg/DetectTrafficLightParamsConfig.py
+
+2. Directory of File 2: 
+/home/user/catkin_ws/src/turtlebot3_autorace_HSA23/turtlebot3_autorace_detect/nodes/detect_traffic_light
+
+3. Directory of File 3: 
+/home/user/catkin_ws/src/turtlebot3_autorace_HSA23/turtlebot3_autorace_detect/cfg/DetectTrafficLightParams.cfg
+
+4. Directory of File 4: 
+/home/user/catkin_ws/src/turtlebot3_autorace_HSA23/turtlebot3_autorace_detect/param/traffic_light/traffic_light.yaml
+
+5. Directory of File 5: 
+/home/user/catkin_ws/devel/include/turtlebot3_autorace_detect/DetectTrafficLightParamsConfig.h
