@@ -1,7 +1,7 @@
 # Optimizing Traffic Light Detection for AutoRace 2019 Competition Package
 
 This project optimizes the traffic light detection mechanism in the AutoRace 2019 competition by replacing the old **blob detection algorithm** with a **new pixel counting algorithm**. The new algorithm provides more reliable and practical results for detecting the three traffic light colors, significantly improving the autonomous driving performance of the original package.
-![Screenshot 2024-10-21 203510](https://github.com/user-attachments/assets/158a7af4-06b4-4702-a641-3008db007cf9)
+![Screenshot 2024-10-21 203510](https://github.com/user-attachments/assets/05281f51-0a8a-4c79-99be-0f1bbd37678f)
 
 ## Project Overview
 
