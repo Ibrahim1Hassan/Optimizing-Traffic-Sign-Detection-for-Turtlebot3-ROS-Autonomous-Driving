@@ -1,6 +1,7 @@
 # Optimizing Traffic Light Detection for AutoRace 2019 Competition Package
 
 This project optimizes the traffic light detection mechanism in the AutoRace 2019 competition by replacing the old **blob detection algorithm** with a **new pixel counting algorithm**. The new algorithm provides more reliable and practical results for detecting the three traffic light colors, significantly improving the autonomous driving performance of the original package.
+![Screenshot 2024-10-21 203510](https://github.com/user-attachments/assets/158a7af4-06b4-4702-a641-3008db007cf9)
 
 ## Project Overview
 
@@ -9,6 +10,7 @@ This project optimizes the traffic light detection mechanism in the AutoRace 201
 - **Main Contributions**:
   - Improved traffic light color detection (red, yellow, green).
   - Enhanced the performance of autonomous driving in the AutoRace package.
+![Screenshot 2024-10-21 203454](https://github.com/user-attachments/assets/3595b589-6528-44ba-b950-2dae080afa7e)
 
 ## Hardware Requirements
 
@@ -26,6 +28,7 @@ This project optimizes the traffic light detection mechanism in the AutoRace 201
 - Dependencies installed for both the **TurtleBot3** and the **remote PC**.
 - ROS and dependent packages should be installed both on the robot and the remote PC.
 
+![Screenshot 2024-10-21 203356](https://github.com/user-attachments/assets/5e95a73f-98fe-4cf0-9815-3b3666124755)
 
 
 ## Getting Started
@@ -68,6 +71,7 @@ $ sudo apt-get install ros-noetic-image-transport ros-noetic-cv-bridge ros-noeti
     $ export AUTO_IN_CALIB=calibration
     $ roslaunch turtlebot3_autorace_camera turtlebot3_autorace_intrinsic_camera_calibration.launch
     ```
+![intirinsic](https://github.com/user-attachments/assets/64f445f6-b118-4add-82e8-b6e979f5419a)
 
 4. **After Calibration**: Overwrite the values of the intrinsic camera calibration file:
 
@@ -94,6 +98,7 @@ $ sudo apt-get install ros-noetic-image-transport ros-noetic-cv-bridge ros-noeti
     $ export AUTO_EX_CALIB=calibration
     $ roslaunch turtlebot3_autorace_camera turtlebot3_autorace_extrinsic_camera_calibration.launch
     ```
+![extirinsic](https://github.com/user-attachments/assets/d6328855-0bdd-4093-9cda-13a13367f7d9)
 
 4. **Adjust Parameters**: Use `rqt` to tune the parameters:
 
@@ -122,6 +127,7 @@ $ sudo apt-get install ros-noetic-image-transport ros-noetic-cv-bridge ros-noeti
     ```bash
     $ rosrun rqt_reconfigure rqt_reconfigure
     ```
+![trafficlight callib](https://github.com/user-attachments/assets/e7456ab4-2f86-437f-8bf8-ec05f2ed14be)
 
 6. After calibration, overwrite the parameters in `traffic_light.yaml`:
 
@@ -136,10 +142,12 @@ Once calibration is complete, run the challenge with the following command:
 $ export AUTO_DT_CALIB=action
 $ roslaunch turtlebot3_autorace_detect turtlebot3_autorace_detect_traffic_light.launch
 ```
+![actionmode](https://github.com/user-attachments/assets/c9611208-74b1-440e-964a-7cff1721439a)
+
 ## Additional Notes
 
 This project was part of the **Autonomous Systems** module in the Master’s in Embedded Systems program at Hochschule Anhalt.  
-For detailed documentation and a demonstration video, please refer to the `/Technical Report + Demo Video` directory.
+**For detailed documentation and a demonstration video**, please refer to the `/Technical Report + Demo Video` directory.
 
 For additional information, please refer to the original AutoRace 2019 package guide and documentation:
 
